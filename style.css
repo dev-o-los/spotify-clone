@@ -53,3 +53,41 @@ body{
     min-height: 78vh;
     position: relative;
 }
+.arrow{
+    width:20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34,34,34);
+}
+.header > *{
+    padding: 16px;
+    
+}
+.right{
+    margin: 10px 0;
+}
+.spotify-playlists{
+    padding: 16px;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.card > *{
+    padding-top: 3px;
+}
